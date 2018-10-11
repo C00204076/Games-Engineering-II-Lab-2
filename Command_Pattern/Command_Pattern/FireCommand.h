@@ -6,6 +6,9 @@
 // Time taken:
 // Known bugs: 
 
+#ifndef FIRECOMMAND_H
+#define FIRECOMMAND_H
+
 #include "Command.h"
 
 #include <iostream>
@@ -18,6 +21,13 @@ class FireCommand : public Command
 public:
 	virtual void execute()
 	{
-		//fire();
+		fire();
+	}
+
+	void fire()
+	{
+		cout << "Fired!" << endl;
 	}
 };
+
+#endif // !FIRECOMMAND_H

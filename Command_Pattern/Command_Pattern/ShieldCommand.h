@@ -6,6 +6,9 @@
 // Time taken:
 // Known bugs: 
 
+#ifndef SHIELDCOMMAND_H
+#define SHIELDCOMMAND_H
+
 #include "Command.h"
 
 #include <iostream>
@@ -26,3 +29,5 @@ public:
 		cout << "Shielded!" << endl;
 	}
 };
+
+#endif // !SHIELDCOMMAND_H

@@ -6,10 +6,13 @@
 // Time taken:
 // Known bugs: 
 
+#ifndef MACROCOMMAND_H
+#define MACROCOMMAND_H
+
 #include "Command.h"
 
 #include<iostream>
-#include <list>
+#include <vector>
 
 using namespace std;
 
@@ -23,5 +26,7 @@ public:
 	virtual void execute();
 
 private:
-	list<Command*>* commands;
+	vector<Command*>* commands;
 };
+
+#endif // !MACROCOMMAND_H

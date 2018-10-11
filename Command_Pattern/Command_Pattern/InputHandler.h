@@ -6,6 +6,9 @@
 // Time taken:
 // Known bugs: 
 
+#ifndef INPUTHANDLER_H
+#define INPUTHANDLER_H
+
 #include "Command.h"
 #include <Windows.h>
 
@@ -22,3 +25,5 @@ private:
 	Command* buttonQ_; // Shield
 	Command* buttonR_; // Fire
  };
+
+#endif // !INPUTHANDLER_H

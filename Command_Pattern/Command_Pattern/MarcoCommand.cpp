@@ -23,24 +23,22 @@ MacroCommand::~MacroCommand()
 //
 void MacroCommand::execute()
 {
-	/*list<Command*> i(commands);
-
-	for ()
+	for (int i =0; i < commands->size(); i++)
 	{
 		Command *c;
 		c->execute();
-	}*/
+	}
 
 }
 
 //
 void MacroCommand::add(Command *c)
 {
-	//commands->
+	commands->push_back(c);
 }
 
 //
 void MacroCommand::remove(Command *c)
 {
-	commands->remove(c);
+	//commands->erase(c);
 }

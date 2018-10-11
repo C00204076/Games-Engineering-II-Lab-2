@@ -4,7 +4,10 @@
 // Started at 10:17 26 September 2018
 // Finished at
 // Time taken:
-// Known bugs: 
+// Known bugs:
+
+#ifndef COMMAND_H
+#define COMMAND_H
 
 //
 class Command
@@ -24,3 +27,5 @@ protected:
 
 	}
 };
+
+#endif // !COMMAND_H

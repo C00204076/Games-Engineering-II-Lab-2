@@ -6,7 +6,20 @@
 // Time taken:
 // Known bugs: 
 
+#include "FireCommand.h"
+#include "CrouchCommand.h"
+#include "JumpCommand.h"
+#include "MeleeCommand.h"
+#include "ShieldCommand.h"
+
+#include "MarcoCommand.h"
+#include "InputHandler.h"
+
 int main()
 {
+	Command *commands[5];
+
+	/*MacroCommand action;
+	action->add(command[0]);*/
 
 }

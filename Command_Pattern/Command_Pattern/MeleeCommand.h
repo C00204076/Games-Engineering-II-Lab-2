@@ -6,6 +6,9 @@
 // Time taken:
 // Known bugs: 
 
+#ifndef MELEECOMMAND_H
+#define MELEECOMMAND_H
+
 #include "Command.h"
 
 #include <iostream>
@@ -18,8 +21,13 @@ class MeleeCommand : public Command
 public:
 	virtual void execute()
 	{
-		//melee();
+		melee();
 	}
 
-
+	void melee()
+	{
+		cout << "Melee!" << endl;
+	}
 };
+
+#endif // !MELEECOMMAND_H
